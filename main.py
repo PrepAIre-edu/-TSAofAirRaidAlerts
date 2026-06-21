@@ -14,7 +14,7 @@ import numpy as np
 # ============================================================
 
 # --- 1.1 Завантаження ---
-df = pd.read_csv("data/alerts.csv")
+df = pd.read_csv("data/official_data_en.csv")
 
 print("=== БАЗОВА ІНФОРМАЦІЯ ===")
 print(f"Всього записів: {len(df)}")
